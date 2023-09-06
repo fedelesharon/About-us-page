@@ -1,0 +1,83 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body p{
+    color: white;
+    font-weight: bolder;
+}
+
+
+body {
+    background-image: url("./image/plane2.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    font-style: italic;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Heading styles */
+h2 {
+    color:black;
+    margin-top: 20px;
+    font-style: unset;
+}
+
+/* List styles */
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="email"] {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
